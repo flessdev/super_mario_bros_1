@@ -1,0 +1,25 @@
+body {
+  font-size: 15pt;
+  margin: 0;
+}
+#home {
+  position: absolute;
+  
+  top: 0;
+  left: 0;
+  
+  width: 100vw;
+  height: 100vh;
+  
+  background-image: url("Sprites/background.png");
+  background-size: cover;
+}
+#logo {
+  width: 176px;
+  height: 88px;
+  
+  background-image: url("Sprites/title.png");
+  background-position: -1px -0.5px;
+  
+  transform: scale(150%) translateY(20px);
+}
